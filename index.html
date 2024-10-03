@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage using bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <div id="home" class="header">
+    
+  </div>
+    <!--navbar-->
+    <div class="nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#tourism"><img src="img/background.jpg" class="w-25"> TOURISM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#destinations" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destination
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#andal temple">anadal temple</a></li>
+                <li><a class="dropdown-item" href="#squirrel sanctuary">squirrel sanctuary</a></li>
+                
+                <li><a class="dropdown-item" href="#ayyanar falls">ayyanar falls</a></li>
+                
+                <li><a class="dropdown-item" href="#Shenbaga thoppu">shenbaga thoppu</a></li>
+                
+                <li><a class="dropdown-item" href="#pilavakkal dam">Pilavakkal dam</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#contact us">contact us</a>
+            </li>
+            
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+    </div>
+    
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/andal temple.webp" class="d-block w-100" alt="aandal temple">
+        </div>
+        <div class="carousel-item">
+          <img src="img/squirrel santuary.webp" class="d-block w-100" alt="squirrel sanctuary">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ayyanar falls.jpg" class="d-block w-100" alt="ayyanar falls">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Shenbaga-Thoppu.webp" class="d-block w-100" alt="shenbaga thoppu">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pilavakkal dam.jpg" class="d-block w-100" alt="pilavakkal dam"  >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--main container-->
+    <div class="container">
+    <h1 class="text-center p-3 mb-5 mt-5"> Tour to virudhunagar</h1>
+    <div class=" w-100  p-3  mb-3" style="background-color: rgb(189, 230, 216);">
+    <p  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nostrum voluptatum aliquam reiciendis tempora laborum aliquid, officiis optio natus eos vitae repellat iusto placeat odio corporis, atque quia ipsum. Est, error. Repellendus tenetur at cumque nam quaerat laborum minus animi error praesentium maiores totam sapiente nulla nihil quos, aut ipsum consequuntur nostrum! Sapiente tenetur ratione suscipit modi voluptatibus repudiandae commodi recusandae nostrum pariatur quo sed iusto iste repellat voluptas provident dolores soluta exercitationem eligendi nam, consequatur magnam voluptatem nulla ullam? Quo a, sint ipsam possimus provident placeat dolorem magnam sequi commodi quis magni, voluptates eos, autem aperiam quasi ducimus? 
+      <button type="button" class="btn btn-primary btn-sm">Book here.....</button>
+    </p>
+    </div>
+    <h2 id="destinations" class="text-center  p-3">Popular destinations</h2>
+    </div>
+   <div class="row">
+   
+    <div class="col">
+      <!--card 1-->
+      <div id="andal temple" class="card" >
+        <img src="img/andal temple.webp" class="card-img-top" alt="andal temple">
+        <div class="card-body">
+          <h5 class="card-title">Andal temple</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, libero at! Dolor animi quos assumenda, molestiae eius sequi deserunt quaerat officiis blanditiis suscipit unde, quis pariatur, adipisci dolorum facere hic!</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+ </div>
+ <div class="col">
+  <!--card 2-->
+  <div id="squirrel sanctuary" class="card" >
+    <img src="img/squirrel santuary.webp " class="card-img-top" alt="squirrel sanctuary" >
+    <div class="card-body">
+      <h5 class="card-title">Squirrel sanctuary</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, libero at! Dolor animi quos assumenda, molestiae eius sequi deserunt quaerat officiis blanditiis suscipit unde, quis pariatur, adipisci dolorum facere hic!</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <!--card 3-->
+  <div id="ayyanar falls"  class="card" >
+    <img src="img/ayyanar falls.jpg" class="card-img-top" alt="ayyanar falls" style="height:230px;">
+    <div class="card-body">
+      <h5 class="card-title">Ayyanar falls</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, libero at! Dolor animi quos assumenda, molestiae eius sequi deserunt quaerat officiis blanditiis suscipit unde, quis pariatur, adipisci dolorum facere hic!</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+   
+  <div class="col">
+    <!--card 1-->
+    <div id="Shenbaga thoppu" class="card" >
+      <img src="img/Shenbaga-Thoppu.webp" class="card-img-top" alt="shenbaga thoppu">
+      <div class="card-body">
+        <h5 class="card-title">Shenbaga thoppu</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, libero at! Dolor animi quos assumenda, molestiae eius sequi deserunt quaerat officiis blanditiis suscipit unde, quis pariatur, adipisci dolorum facere hic!</p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+</div>
+<div class="col">
+  <!--card 1-->
+  <div id="pilavakkal dam" class="card" >
+    <img src="img/pilavakkal dam.jpg" class="card-img-top" alt="pilavakkal dam">
+    <div class="card-body">
+      <h5 class="card-title">Pilavakkal dam</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, libero at! Dolor animi quos assumenda, molestiae eius sequi deserunt quaerat officiis blanditiis suscipit unde, quis pariatur, adipisci dolorum facere hic!</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+</div>
+</div>
+   </div>
+
+<h2 id="contact us" class="text-center  p-3 mb-3 mt-3">Contact us</h2>
+<div class="w-100  p-5  mb-3" style="background-color: rgb(189, 230, 216);">
+  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nostrum voluptatum aliquam reiciendis tempora laborum aliquid, officiis optio natus eos vitae repellat iusto placeat odio corporis, atque quia ipsum. Est, error. Repellendus tenetur at cumque nam quaerat laborum minus animi error praesentium maiores totam sapiente nulla nihil quos, aut ipsum consequuntur nostrum! Sapiente tenetur ratione suscipit modi voluptatibus repudiandae commodi recusandae nostrum pariatur quo sed iusto iste repellat voluptas provident dolores soluta exercitationem eligendi nam, consequatur magnam voluptatem nulla ullam? Quo a, sint ipsam possimus provident placeat dolorem magnam sequi commodi quis magni, voluptates eos, autem aperiam quasi ducimus? 
+    <button type="button" class="btn btn-primary btn-sm"><a href="#vnagar@tn.com" style="color: white; text-decoration: none;">Contact us for more info</a></button>
+  </p>
+  </div>
+  <h2 id="contact us" class="text-center  p-3 mb-3 mt-3">Enjoy your trip</h2>
+  <img src="img/enjoy.jpg" class="p-3 w-100">
+ <!--end of container-->
+ <footer class="bg-dark text-white text-center p-3">
+  <p>&copy;Tour to virudhunagar</p>
+  <p><a href="#vnagar@tn.com" class="text-white">Email us</a></p>
+
+ </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
